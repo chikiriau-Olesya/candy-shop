@@ -1,0 +1,68 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic');
+@font-face {
+    font-family: 'Intro', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #ff9d91;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90vw;
+    position: fixed;
+    left: 4%;
+    right: 4%;
+}
+.hero__up__list,
+.hero__down__list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.up__list__item,
+.down__list__item {
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.face-up,
+.face-down {
+    width: 100%;
+}
+.face-up {
+    width: 93%;
+    margin-top: -35%;
+}
+.up__list__item:last-of-type,
+.down__list__item:first-of-type,
+.down__list__item:last-of-type {
+    text-align: start;
+}
+.face-down {
+    width: 127%;
+    margin-bottom: -107%;
+    margin-left: -5%;
+}
+.face-up {
+  margin-top: -38%;
+}
+.down__list__socials {
+    display: flex;
+}
+.content {
+    margin: 0 auto;
+    width: 60vw;
+
+}
+
