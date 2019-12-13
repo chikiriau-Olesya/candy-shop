@@ -1,5 +1,5 @@
 @font-face {
     font-family: 'Intro';
-    font-weight: 500;
-    src: url(../fonts/Intro.otf) format('truetype');
+    font-weight: regular;
+    src: url(../fonts/Intro-Regular.otf) format('truetype');
 }
