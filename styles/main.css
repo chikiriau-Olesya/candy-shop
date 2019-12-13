@@ -1,8 +1,6 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic');
-@font-face {
-    font-family: 'Intro', monospace;
-}
+@import "fonts.css";
 
 * {
     box-sizing: border-box;
@@ -10,6 +8,7 @@
       -moz-osx-font-smoothing: grayscale;
 }
 body {
+    font-family: 'Intro', monospace;
     background-color: #ff9d91;
 }
 .hero {
@@ -22,12 +21,19 @@ body {
     position: fixed;
     left: 4%;
     right: 4%;
+    
 }
 .hero__up__list,
 .hero__down__list {
     display: flex;
     text-align: center;
     justify-content: center;
+}
+.hero__down {
+    background-color:  #ff9d91;
+}
+.hero__down__list {
+    align-items: flex-end;
 }
 .up__list__item,
 .down__list__item {
@@ -41,8 +47,8 @@ body {
     width: 100%;
 }
 .face-up {
-    width: 93%;
-    margin-top: -35%;
+    width: 81%;
+    margin-top: -29%;
 }
 .up__list__item:last-of-type,
 .down__list__item:first-of-type,
@@ -50,9 +56,9 @@ body {
     text-align: start;
 }
 .face-down {
-    width: 127%;
+    width: 125%;
     margin-bottom: -107%;
-    margin-left: -5%;
+    margin-left: -3%;
 }
 .face-up {
   margin-top: -38%;
@@ -60,9 +66,57 @@ body {
 .down__list__socials {
     display: flex;
 }
+
 .content {
     margin: 0 auto;
     width: 60vw;
-
+    padding-top: 9%;
 }
-
+.content__first__up,
+.content__first__down {
+    display: flex;
+}
+h1 {
+    font-size: 5vw;
+    color: #ff6152;
+    line-height: 85px;
+    transform: matrix(0.87, -0.45, 0.47, 0.9, 0, 0);
+    z-index: -1;
+}
+h1:after {
+    position: absolute;
+    content:"Конфетный магазин идей";
+    color:white;
+    right: 1%;
+    bottom: 0%;
+    left: -1%;
+}
+.sweets-small {
+    position: absolute;
+    z-index: -1;
+}
+.candy-img {
+    width: 100%;
+}
+.group-candies-img {
+    width: 78%;
+}
+.try {
+   display: none;
+}
+.fixed {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90vw;
+   
+}
+.fixed__block {
+    display: flex;
+    justify-content: space-between;
+}
