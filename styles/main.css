@@ -29,6 +29,7 @@ body {
     text-align: center;
     justify-content: center;
 }
+.hero__up,
 .hero__down {
     background-color:  #ff9d91;
 }
@@ -59,10 +60,14 @@ margin-top: 27px;
 .down__list__item:last-of-type {
     text-align: start;
 }
+.down__list__item:first-of-type {
+    position: relative;
+}
 .face-down {
     width: 125%;
     margin-bottom: -107%;
     margin-left: -3%;
+    background-color: #ff9d91;
 }
 .down__list__item:first-of-type,
 .down__list__item:last-of-type {
@@ -157,6 +162,9 @@ h1:after {
     z-index: -3;
     width: 78%;
 }
+.dino-img {
+    width: 42vw;
+}
 .bable p {
     font-size: 2.6vw;
     color: #1223aa;
@@ -205,12 +213,88 @@ h1:after {
 .lightning__list__item:last-of-type {
     margin-right: 53%;
 }
+.lightning-img {
+    width: 24vw;
+}
+.second__block:nth-of-type(3) {
+    position: relative;
+    z-index: -1;
+    flex-direction: row-reverse;
+ }
 .candy-style-img {
     position: absolute;
     z-index: -1;
+    top: -21%;
+    left: 14%;
 }
 .second__block__lips {
     display: flex;
     margin: 0 auto;
     margin-right: 0;
+    margin-right: -11%;
+    margin-top: -6%;
+}
+.lips-img {
+    width: 30vw;
+}
+.block__sign {
+    position: absolute;
+    left: 0;
+    top: 23%;
+}
+.sign-img {
+    width: 33vw;
+}
+.block__sign p {
+    font-size: 2vw;
+    color: #1223aa;
+    transform: rotate(23.55deg);
+    position: absolute;
+    top: 44%;
+    left: 21%;
+}
+.second__block:nth-of-type(4) {
+    flex-direction: row-reverse;
+    position: relative;
+    z-index: -1;
+}
+.block__eye {
+    position: absolute;
+    right: 0;
+    top: -24%;
+    z-index: -1;
+}
+.eye__list {
+    font-size: 2vw;
+    color: #1223aa;
+    position: absolute;
+    top: 53%;
+    left: 13%;
+    transform: rotate(20.46deg)
+}
+.eye-blue-img {
+   margin: 0 auto;
+   margin-left: 0;
+   margin-top: 6%;
+}
+.eye-white-img,
+.eye-blue-img {
+    width: 26vw;
+}
+
+.candies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content__third {
+    text-align: center;
+    margin-top: 14%;
+    padding-bottom: 28%;
+}
+.welcome-img {
+    width: 36vw;
+}
+.lamp-img {
+    width: 24vw;
 }
