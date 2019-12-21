@@ -20,8 +20,7 @@ body {
     margin: 0 auto;
     position: fixed;
     left: 4%;
-    right: 4%;
-    
+    right: 4%; 
 }
 .hero__img {
     height: 100%;
@@ -36,6 +35,9 @@ body {
     background-color:  #ff9d91;
     padding: 0% 9% 0% 9%;
     width: 100%;
+}
+.hero__img__up {
+    width: 85%;
 }
 .hero__img__down img {
     margin-bottom: -1%;
@@ -99,13 +101,220 @@ body {
     width: 60vw;
     padding-top: 8%;
 }
+.content__tadam {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 35%;
+}
+.curcle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
+    opacity: 0;
+}
+.curcle:nth-of-type(odd) {
+    width: 15px;
+    height: 15px;
+    background-color: bisque;
+}
+.curcle:first-of-type {
+    animation: tadam 2s ease-out;
+}
+@keyframes tadam {
+    from {
+      opacity: 1;
+      transform: translate(0px,0px);
+    }
+    to {
+      opacity: 0.8;
+      transform: translate(350px,-350px);
+    }
+}
+.curcle:nth-of-type(2) {
+    animation: tadam2 2s ease-out;
+}
+@keyframes tadam2 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(-350px,350px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(3) {
+    background-color: #ff6152;
+    width: 5px;
+    height: 5px;
+}
+.curcle:nth-of-type(3) {
+    animation: tadam3 2s ease-out;
+}
+@keyframes tadam3 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(-100px, 400px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(4) {
+    animation: tadam4 3s ease-out;
+}
+@keyframes tadam4 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(200px,-180px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(5) {
+    animation: tadam5 4s ease-out;
+}
+@keyframes tadam5 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(400px,-460px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(6) {
+    animation: tadam6 3.5s ease-out;
+}
+@keyframes tadam6 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(-600px,-600px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(7) {
+    background-color: white;
+    animation: tadam7 1s ease-out;
+}
+@keyframes tadam7 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(-500px, -100px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(8) {
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    animation: tadam8 1s ease-out;
+}
+@keyframes tadam8 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(500px, 110px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(9) {
+    background-color: #ff6152;
+    width: 8px;
+    height: 8px;
+    animation: tadam9 2s ease-out;
+}
+@keyframes tadam9 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(800px, 500px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(10) {
+    background-color: #ff6152;
+    width: 18px;
+    height: 18px;
+    animation: tadam10 3s ease-out;
+}
+@keyframes tadam10 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(900px, 800px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(11) {
+    background-color: #1223aa;
+    width: 18px;
+    height: 18px;
+    animation: tadam11 3.8s ease-out;
+}
+@keyframes tadam11 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(900px, 970px);
+        display: none;
+    }
+}
+.curcle:nth-of-type(12) {
+    background-color: #1223aa;
+    width: 18px;
+    height: 18px;
+    animation: tadam12 1s ease-out;
+}
+@keyframes tadam12 {
+    from {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+    to {
+        opacity: 0.8;
+        transform: translate(-150px, 500px);
+        display: none;
+    }
+}
 .content__first__up,
 .content__first__down {
     display: flex;
 }
 .content__first__up {
     position: relative;
-    z-index: -1;
+    z-index: -2;
 }
 .splashes-img,
 .splashes-right {
@@ -529,6 +738,9 @@ h1:after {
         width: 100%;
         padding: 0 10%;
     }
+    .hero__img__up {
+        width: 90%;
+    }
     .content {
         padding-top: 17%;
     }
@@ -605,6 +817,9 @@ h1:after {
 @media (max-width: 768px) {
     .hero {
         width: 87vw;
+    }
+    .hero__img__up {
+        width: 100%;
     }
     .hero__text {
         padding: 4% 1%;
@@ -1008,7 +1223,7 @@ h1:after {
         display: block;
     }
 }
-@media (max-width: 375px){
+@media (max-width: 375px) {
     .hero__text__up {
         margin-top: 7%;
     }
@@ -1094,6 +1309,4 @@ h1:after {
     .content__third {
         padding-bottom: 130%;
     }
-  
 }
-
