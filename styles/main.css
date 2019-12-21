@@ -102,13 +102,13 @@ body {
     padding-top: 8%;
 }
 .content__tadam {
-    position: absolute;
+    position: fixed;
     display: flex;
     left: 50%;
     top: 35%;
 }
 .curcle {
-    position: fixed;
+    position: absolute;
     width: 10px;
     height: 10px;
     background-color: darkblue;
