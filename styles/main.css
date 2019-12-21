@@ -122,6 +122,7 @@ body {
 }
 .curcle:first-of-type {
     animation: tadam 2s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam {
     from {
@@ -135,6 +136,7 @@ body {
 }
 .curcle:nth-of-type(2) {
     animation: tadam2 2s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam2 {
     from {
@@ -151,9 +153,8 @@ body {
     background-color: #ff6152;
     width: 5px;
     height: 5px;
-}
-.curcle:nth-of-type(3) {
     animation: tadam3 2s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam3 {
     from {
@@ -168,6 +169,7 @@ body {
 }
 .curcle:nth-of-type(4) {
     animation: tadam4 3s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam4 {
     from {
@@ -182,6 +184,7 @@ body {
 }
 .curcle:nth-of-type(5) {
     animation: tadam5 4s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam5 {
     from {
@@ -196,6 +199,7 @@ body {
 }
 .curcle:nth-of-type(6) {
     animation: tadam6 3.5s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam6 {
     from {
@@ -211,6 +215,7 @@ body {
 .curcle:nth-of-type(7) {
     background-color: white;
     animation: tadam7 1s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam7 {
     from {
@@ -228,6 +233,7 @@ body {
     width: 8px;
     height: 8px;
     animation: tadam8 1s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam8 {
     from {
@@ -245,6 +251,7 @@ body {
     width: 8px;
     height: 8px;
     animation: tadam9 2s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam9 {
     from {
@@ -262,6 +269,7 @@ body {
     width: 18px;
     height: 18px;
     animation: tadam10 3s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam10 {
     from {
@@ -279,6 +287,7 @@ body {
     width: 18px;
     height: 18px;
     animation: tadam11 3.8s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam11 {
     from {
@@ -296,6 +305,7 @@ body {
     width: 18px;
     height: 18px;
     animation: tadam12 1s ease-out;
+    animation-delay: 750ms;
 }
 @keyframes tadam12 {
     from {
