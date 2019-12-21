@@ -108,7 +108,7 @@ body {
     top: 35%;
 }
 .curcle {
-    position: absolute;
+    position: fixed;
     width: 10px;
     height: 10px;
     background-color: darkblue;
