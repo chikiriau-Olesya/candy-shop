@@ -1238,6 +1238,7 @@ h1:after {
         margin-right: -19%;
     }
     .candy-style-img {
+        width: 20vw;
         animation: candy-425 3s linear infinite;
     }
     @keyframes candy-425 {
