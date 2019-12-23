@@ -11,6 +11,9 @@ body {
     font-family: 'Intro', monospace;
     background-color: #ff9d91;
 }
+
+
+/* Фиксированный блок */
 .hero {
     height: 100%;
     width: 80vw;
@@ -103,6 +106,11 @@ body {
 .text__down__block__link:hover {
     text-decoration: underline;
 }
+
+
+
+/*Контет-часть*/
+
 .content {
     margin: 0 auto;
     width: 60vw;
@@ -325,6 +333,10 @@ body {
         display: none;
     }
 }
+
+
+/*Контет-часть первый блок*/
+
 .content__first__up,
 .content__first__down {
     display: flex;
@@ -420,6 +432,10 @@ h1:after {
     top: 38%;
     width: 5vw;
 }
+
+
+/*Контет-часть второй блок*/
+
 .content__second {
     margin-top: -7%;
 }
@@ -650,6 +666,10 @@ h1:after {
     margin-left: 4%;
     width: 6vw;
 }
+
+
+/*Контет-часть третий блок*/
+
 .content__third {
     text-align: center;
     display: flex;
@@ -664,6 +684,10 @@ h1:after {
 .lamp-img {
     width: 22vw;
 }
+
+
+/*Медиа запросы*/
+
 @media (max-width:1440px) {
     .tablet,
     .phone,
@@ -739,6 +763,7 @@ h1:after {
             transform: translateY(370px) translateX(380px) scale(1);
         }
 }
+
 @media (max-width: 1024px) {
     .desktop,
     .tablet,
@@ -831,6 +856,7 @@ h1:after {
             transform: translateY(330px) translateX(260px) scale(1);
         }
     }
+
 @media (max-width: 768px) {
     .hero {
         width: 87vw;
@@ -863,6 +889,10 @@ h1:after {
     }
     .list__socials__item {
         margin-right: 14px;
+    }
+    .list__socials__item__link img:hover {
+        width: 5.5vw;
+        transition: width .5s ease;
     }
     .list__socials__item img {
         width: 5vw;
@@ -1027,6 +1057,7 @@ h1:after {
         padding-bottom: 96%;
     }
 }
+
 @media (max-width:425px) {
     .hero {
         width: 95vw;
@@ -1082,6 +1113,10 @@ h1:after {
     .list__socials__item {
         margin-right: 0;
         margin-bottom: 8px;
+    }
+    .list__socials__item__link img:hover {
+        width: 7.8vw;
+        transition: width .5s ease;
     }
     .list__socials__item img {
         width: 7vw;
@@ -1228,6 +1263,7 @@ h1:after {
         margin-left: 4%;
     }
 }
+
 @media (max-width: 414px) {
     .desktop,
     .desktop-third,
@@ -1240,6 +1276,7 @@ h1:after {
         display: block;
     }
 }
+
 @media (max-width: 375px) {
     .hero__text__up {
         margin-top: 7%;
@@ -1259,6 +1296,7 @@ h1:after {
         margin-top: 46%;
     }
 }
+
 @media (max-width: 320px) {
     .desktop,
     .desktop-third,
