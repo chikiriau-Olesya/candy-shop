@@ -117,7 +117,7 @@ body {
     padding-top: 8%;
 }
 .content__tadam {
-    position:fixed;
+    position: fixed;
     display: flex;
      left: 50%;
     top: 35%;
@@ -425,7 +425,7 @@ h1:after {
     margin-right: -4%;
     margin-top: -10%;
 }
-.arrow {
+.arrow-top {
     position: absolute;
     z-index: -1;
     right: -4%;
@@ -1184,6 +1184,9 @@ h1:after {
     }
     .splashes-right {
         right: 8%;
+    }
+    .arrow-top {
+        display: none;
     }
     .candy-img {
         margin-right: 0;
