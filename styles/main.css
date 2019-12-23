@@ -102,9 +102,9 @@ body {
     padding-top: 8%;
 }
 .content__tadam {
-    position: fixed;
+    position:fixed;
     display: flex;
-    left: 50%;
+     left: 50%;
     top: 35%;
 }
 .curcle {
